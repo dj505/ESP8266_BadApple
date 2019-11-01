@@ -8,7 +8,7 @@
 // * Adjust the display pins below
 // * After uploading to ESP8266, also do "ESP8266 Sketch Data Upload" from Arduino
 
-SSD1306 display (0x3c, D1, D2); // For Heltec
+SSD1306 display (0x3c, D1, D2); // D1 to SDA, D2 to SCK
 //SSD1306 display (0x3c, 5, 4);
 
 #if HEATSHRINK_DYNAMIC_ALLOC
