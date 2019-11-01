@@ -1,11 +1,11 @@
-# ESP32_BadApple
-Bad Apple video by Touhou on ESP32 with SSD1306 OLED, uses the Heatshrink compression library to decompress the RLE encoded video data.
+# ESP8266_BadApple
+Bad Apple video by Touhou on ESP8266 with SSD1306 OLED, uses the Heatshrink compression library to decompress the RLE encoded video data.
 First version, no sound yet, video only.
 
 ![Bad Apple on ESP32](ESP32_BadApple.jpg)
 
 ## Hardware Requirements
-Runs on ESP32 modules with OLED displays based on SSD1306. Typical modules are available from Heltec or TTGO or others.
+Runs on ESP8266 modules with OLED displays based on SSD1306. Typical modules are available from Heltec or TTGO or others.
 
 ## Software Requirements
 * Arduino 1.8.x
