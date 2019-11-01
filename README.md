@@ -9,14 +9,14 @@ Runs on ESP32 modules with OLED displays based on SSD1306. Typical modules are a
 
 ## Software Requirements
 * Arduino 1.8.x
-* ESP32 Arduino core from https://github.com/espressif/arduino-esp32
+* ESP8266 Arduino core from https://github.com/esp8266/Arduino/releases
 * OLED display driver from https://github.com/ThingPulse/esp8266-oled-ssd1306
-* ESP32 SPIFFS Upload Plugin from https://github.com/me-no-dev/arduino-esp32fs-plugin
+* ESP8266 SPIFFS Upload Plugin from https://github.com/esp8266/arduino-esp8266fs-plugin/releases
 
 # Usage
 * Adapt display pins in main sketch if necessary
 * Upload sketch
-* Upload sketch data via "Tools" -> "ESP32 Sketch Data Upload"
+* Upload sketch data via "Tools" -> "ESP8266 Sketch Data Upload"
 
 Enjoy video. Pressing PRG button (GPIO0) for max display speed (mainly limited by I2C transfer), otherwise limited to 30 fps.
 
